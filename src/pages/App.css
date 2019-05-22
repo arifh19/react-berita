@@ -1,0 +1,22 @@
+.news-container{
+    max-width: 768px;
+    margin: 0 auto;
+    
+    
+}
+.card-berita{
+    text-decoration:'none';
+    color: inherit;
+    transition: .5s all;
+}
+.card-berita:hover{
+    text-decoration:'none';
+    box-shadow:0 1rem 3rem rgba(0,0,0,.205)!important;
+    color: blue;
+    transition: .5s all;
+    transform: scale(1.05);
+}
+
+.card-berita:hover .card-text{
+    color: black;
+} 
